@@ -12,34 +12,121 @@
 		<!-- @include nav-inpage-bnb -->
 		%img(src="<!-- @path inspiration_slider_01.jpg -->")
 
-	%section.sec-info
+	%section.sec-info#infos
 		.wrapper
 			%h3 Info & Ausstattung
-			%p Indisch inspiriert schläft man in Inspiration in einem handgemachten Himmelbett unter einem Baldachin von Saris und lässt sich von erdigen Rottönen umhüllen. Ein chinesischer Hochzeitsschrank verstaut alles Mitgebrachte während die riesige Laterne aus Marrakech den Raum in zartem Licht erstrahlen lässt. So kommt man nach einer verträumten Nacht auf neue Ideen.
+			%p.intro Indisch inspiriert schläft man in Inspiration in einem handgemachten Himmelbett unter einem Baldachin von Saris und lässt sich von erdigen Rottönen umhüllen. Ein chinesischer Hochzeitsschrank verstaut alles Mitgebrachte während die riesige Laterne aus Marrakech den Raum in zartem Licht erstrahlen lässt. So kommt man nach einer verträumten Nacht auf neue Ideen.
 
-			%h4 Basics
-			%ul
-				%li 1 bis 3 Personen
-				%li Frühstück inkludiert
-				%li Nichtraucher Zimmer
-				%li Checkin/out 11 Uhr
+			%img(src="<!-- @path floorplan-fantastic-suite -->")
 
-			%h4 Bettenart
-			%p Ein Kingsize Bett
-			%p Auf Wunsch ein Zustellbett
+			.features
+				%div
+					%h4 Basics
+					%ul
+						%li 1 bis 3 Personen
+						%li Frühstück inkludiert
+						%li Nichtraucher Zimmer
+						%li Checkin/out 11 Uhr
+				%div
+					%h4 Bettenart
+					%ul
+						%li Ein Kingsize Bett
+						%li Auf Wunsch ein Zustellbett
 
-			%h4 Lage des Zimmers
-			%p 1. Stock, Gartenseite
+					%h4 Lage des Zimmers
+					%p 1. Stock, Gartenseite
 
-			%h4 Ausstattung
-			%ul
-				%li Klimaanlage
-				%li WC und Badewanne
-				%li Haarfön
-				%li L’Occitane Toilettenartikel
-				%li SAT TV
-				%li WIFI im Zimmer
-				%li Schreibtisch
-				%li Kleiderschrank
+				%div
+					%h4 Ausstattung
+					%ul
+						%li Klimaanlage
+						%li WC und Badewanne
+						%li Haarfön
+						%li L’Occitane Toilettenartikel
+						%li SAT TV
+						%li WIFI im Zimmer
+						%li Schreibtisch
+						%li Kleiderschrank
+
+	%section.sec-reviews
+		.wrapper
+			%figure
+				%blockquote “Perfect place to stay, you feel like beeing at your friends home. Close to the Danube, close tot he subway, and just the breakfast is worth a stay!”
+
+				%cite
+					Peter form Miami on
+					%a(href="#") Tiscover
+				%a.btn(href="#") Mehr Bewertungen
+
+
+	%section.sec-booking#booking
+		%h3 Preise & buchen
+
+		.wrapper
+			%h4 Preise
+			%h4 Buchen
+
+	%section.sec-breakfast#breakfast
+		%header
+			%h3 Unser Frühstück
+			%p Alles, was man für einen guten Start in den Tag braucht
+		%main
+			.wrapper
+				%div
+					%p Ein großer Teaktisch aus Indonesien wo man sich morgens trifft. Unser viel gelobtes Müsli wird selbst gemacht, ebenso wie die Marmeladen vom Obst aus dem Garten. Marille mit viel Rum, Zimt und Kardamon, Quitte mit Kürbis und Rosmarin oder Erdbeer mit Lavendel.
+					%p Unser Cafe kommt vom Lago di Garda, <em>Lucafe</em>, eine feine Rösterei welche köstlichen Cafe für unsere kleine rote Espressomaschine produziert. Wer einen Capuccino bei uns getrunken hat, will meistens noch einen zweiten.
+				%div
+					%p Ein Ei von glücklichen Hühnern wird nach Wunsch frisch zubereitet. Serviert wird auf handgetöpferten Tellern und Schalen aus Israel, geschnitten mit dem besonderen Kupferbesteck aus Indien und getrunken aus Teeschalen von kleinen Töpfereien in Japan. Alles findet hier in Harmonie zueinander.
+					%p Ein Frühstück für das es sich lohnt aufzustehen, sodass manche sogar Breakfast and Bed zu uns sagen würden.
+
+
+	%section.sec-umfeld#surroundings
+		%header
+			%h3 Umfeld & Aktivitäten
+			%p Die Alten Donau, Wiens schönster Erholungsraum, liegt gleich um die Ecke.
+		%main
+			.wrapper
+				%div
+					%h4 Joggen, Schwimmen, Radfahren, Skaten oder Spaziergehen
+					%p Das Erholungsgebiet rund um die Alte Donau beginnt am Ende unserer Straße. Kilometerlange Spazierwege führen entlang des Wassers und bieten Erholung ohne Autos und Lärm und bieten jede Menge Natur mitten in der Stadt.
+					%a.btn(href="http://www.alte-donau.info") Die Alte Donau
+				%div
+					%h4 Shopping und Entertainment im Donau Zentrum
+					%p Donau Zentrum - Das Lifestyle-Center Wiens bietet mit über 260 Shops und Topbrands die aktuellesten Trends aus Fashion, Lifestyle und Living. Außerdem findet man dort ein sich ein großes Gastronomisches Angebot sowei ein Kinozentrum.
+					%a.btn(href="http://www.donauzentrum.at") Donau Zentrum
+				%div
+					%h4 Zahlreiche Möglichkeiten den Gaumen zu erfreuen
+					%p Immer wieder stößt man auf verträumte Gaststätten direkt am Wasser. Auch im Winter kann man von der warmen Gaststube aus vorüberziehende Wasservögel beobachten oder die Pirouetten der Eisläufer bewundern.
+
+	%section.sec-other-rooms
+		%h3 Weitere Zimmer
+
+		.wrapper
+			%div
+				.box-room
+					%img(src="<!-- @path room-contemplation-thumb -->")
+					%h4 №1 Contemplation
+					%p.subhead Frisches Mittelmeerfliar
+					%p 1 bis 2 Personen, inkl. Frühstück
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+			%div
+				.box-room
+					%img(src="<!-- @path room-inspiration-thumb -->")
+					%h4 №2 Inspiration
+					%p.subhead Raum für neue Eingebungen
+					%p 1 bis 3 Personen, inkl. Frühstück
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+			%div
+				.box-room
+					%img(src="<!-- @path room-imagination-thumb -->")
+					%h4 №2 Imagination
+					%p.subhead Leben wie in 1001 Nacht
+					%p 1 bis 3 Personen, inkl. Frühstück
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+
+
 
 <!-- @include footer -->

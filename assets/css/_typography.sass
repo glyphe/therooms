@@ -1,5 +1,11 @@
 @import "webfont-finch-bold.css"
 
+@mixin font-finch
+	font-family: "Finch-Bold"
+	font-weight: normal
+	line-height: 1
+
+
 // ###### GENERAL TYPO SETTINGS ######
 
 body
@@ -7,6 +13,8 @@ body
 	font-family: "skolar", serif
 	font-size: 1.1em
 
+p
+	margin: 0.5em 0
 
 
 // ###### HEADINGS ######
@@ -24,28 +32,64 @@ h2 span
 	margin: 0.1em 0 0 0
 
 h2 span, h3
-	font-family: "Finch-Bold"
-	font-weight: normal
+	@include font-finch
 	font-size: 3em
-	line-height: 1
 	text-transform: uppercase
 	font-style: normal
 
 h3
+	text-align: center
 	color: $brand-color-2
 	margin: 1em 0 0.3em
 
 h4
-	text-transform: uppercase
-	letter-spacing: 1px
+	color: $brand-color-2
+	font-style: italic
+	margin: 2em 0 0.5em
+
+
+// ###### QUOTES ######
+
+blockquote
+	@include font-finch
+	margin: 0
+	font-size: 2.5em
+	text-indent: -0.2em
+
+cite
+	font-style: normal
+
+
+// ###################
+// ###### LISTS ######
+// ###################
+
+	// Listen innerhalb der Zimmer
+.features
+	ul
+		padding-left: 1.2em
+		list-style: none
+
+	li
+		line-height: 1.2
+		margin-bottom: 0.5em
+
+	li:before
+		font-family: "FontAwesome"
+		font-size: 0.8em
+		content: "\f00c"
+		margin: 0 0.4em 0 -1.4em
 
 
 
+// ###################
 // ###### LINKS ######
+// ###################
 
 a:link, a:visited
 	color: $brand-color-1
 	text-decoration: none
+	transition: color 0.5s ease
 
 a:hover, a:active
 	color: $brand-color-2

@@ -1,0 +1,664 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"wrapp",
+				"wrapper-padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"br",
+				"brand-mid-grey"
+			],
+			[
+				"band-gr",
+				"brand-mid-grey"
+			],
+			[
+				"event-d",
+				"event-date"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"le",
+				"letter-spacing-sml"
+			],
+			[
+				"shadow",
+				"shadow-boxes-darker"
+			],
+			[
+				"in",
+				"initial"
+			],
+			[
+				"let",
+				"letter-spacing-sml"
+			],
+			[
+				"lett",
+				"letter-spacing"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"brand",
+				"brand-white"
+			],
+			[
+				"trans",
+				"transp-black"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"png",
+				"png"
+			],
+			[
+				"bacg",
+				"background-size"
+			],
+			[
+				"fontsi",
+				"fontsize-p"
+			],
+			[
+				"grau",
+				"grau-mittel"
+			],
+			[
+				"oe",
+				"oeapblau"
+			],
+			[
+				"Str",
+				"Stroudley-Bold"
+			],
+			[
+				"Strod",
+				"Stroudley-Light"
+			],
+			[
+				"Stroud",
+				"Stroudley-Bold"
+			],
+			[
+				"oea",
+				"oeapblau-light"
+			],
+			[
+				"font-s",
+				"fonts-standard"
+			],
+			[
+				"oeap",
+				"oeapblau"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/css/_navigations.sass",
+			"settings":
+			{
+				"buffer_size": 1013,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_responsive.sass",
+			"settings":
+			{
+				"buffer_size": 307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_layout.sass",
+			"settings":
+			{
+				"buffer_size": 846,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Macintosh HD 2/Git/therooms/index.haml",
+		"/Volumes/Macintosh HD 2/Git/gridtest/assets/css/responsive.sass",
+		"/Volumes/Macintosh HD 2/Git/gridtest/assets/css/style.sass",
+		"/Volumes/Macintosh HD 2/Git/gridtest/assets/css/grid.sass",
+		"/Volumes/Macintosh HD 2/Git/gridtest/index.haml",
+		"/Volumes/Macintosh HD 2/Git/gridtest/Build/assets/css/style.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Zeichenschatz/ÖAP/Präsentationen/5 Meine ÖAP/01.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Zeichenschatz/BÖP/Präsentationen/Datenverwaltung/text.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Zeichenschatz/BÖP/Präsentationen/Datenverwaltung/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Zeichenschatz/BÖP/Präsentationen/Datenverwaltung/style/style.css",
+		"/Users/Oliver/Downloads/MyFontsWebfontsKit/MyFontsWebfontsKit.css",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav-sub-bnb.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/_general.sass",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/normalize.css",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_footer.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/navigations.sass",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/layout.sass",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav-inpage-bnb.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav_inpage_bnb.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav_rooms.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/style.sass",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_header.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_header3.haml.html",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_header.haml.html",
+		"/Volumes/Macintosh HD 2/Git/PGO/includes/_header.haml",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Zeichenschatz/the rooms/Style Tiles/Export/index.html",
+		"/Volumes/Macintosh HD 2/Git/PGO/membership.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/membership-detail.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/includes/_nav-one-business.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/profile.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/css/style.sass",
+		"/Volumes/Macintosh HD 2/Git/PGO/includes/_nav-categories.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/one-business-login.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/one-business-add-event.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/one-business-specials-2.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/includes/_footer_categories.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/css/bootstrap.scss",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/css/font-awesome/font-awesome.scss",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/css/font-awesome/_variables.scss",
+		"/Users/Oliver/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Zeichenschatz/the rooms/Style Tiles/Export/style.css",
+		"/Volumes/Macintosh HD 2/Git/PGO/today.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/css/bootstrap_my_variables.scss",
+		"/Volumes/Macintosh HD 2/Git/PGO/today-3.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/category-clubs-bars.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/category-clubs-bars2.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/category.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/style.sass",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/bootstrap.scss",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/bootstrap/_variables_project.scss",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/bootstrap/_variables_galvano.scss",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/bootstrap/bootstrap.scss",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/css/bootstrap.less",
+		"/Volumes/Macintosh HD 2/Git/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/css/bootstrap_css.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/flexbox-2.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/flexbox-1.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/flexbox-5.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/style/style-flexbox-5.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/style/style-flexbox-3.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/style/style-flexbox-4.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/style/style-flexbox-1.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/flexbox-3.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/flex-box-2.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/style/style-flex-box-2.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/flex-box-1.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/style/style-angabe.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/style/style2.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Graphische/Übungen/Flexbox/index2.html",
+		"/Volumes/Macintosh HD 2/Git/PGO/includes/_footer.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/layout.haml",
+		"/Volumes/Macintosh HD 2/Git/PGO/assets/css/bootstrap.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Ferrás/Galvano Events/Galvano ONE/Design/HTML Dummy/01 Look & Feel/style/style.css",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Ferrás/Galvano Events/Galvano ONE/Design/HTML Dummy/01 Look & Feel/profile.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Ferrás/Galvano Events/Galvano ONE/Design/HTML Dummy/01 Look & Feel/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Ferrás/Galvano Events/Galvano ONE/Design/HTML Dummy/01 Look & Feel/test.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Übungen/Shadow & Borderradius/style/style.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Übungen/Shadow & Borderradius/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Übungen/Shadow & Borderradius/index-2.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Übungen/Shadow & Borderradius/style/style-2.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MTIN/Abgaben MELB Gruppe 1/Restaurant Website/Nagl Mochi/html/mochi.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MTIN/Abgaben MELB Gruppe 1/Restaurant Website/Nagl Mochi/html/mochi startseite.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MTIN/Abgaben MELB Gruppe 1/Restaurant Website/Nagl Mochi/html/mochi2.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MTIN/Abgaben MELB Gruppe 1/Restaurant Website/Nagl Mochi/html/mochi3.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MTIN/Abgaben MELB Gruppe 1/Restaurant Website/Nagl Mochi/style/mochi startseite.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MTIN/Abgaben MELB Gruppe 1/Restaurant Website/Nagl Mochi/style/mochi style1.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MTIN/Abgaben MELB Gruppe 1/Restaurant Website/Nagl Mochi/style/mochi2 style2.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Übungen/Erste Website/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/BÖP/Präsentationen/EuroPsy/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/BÖP/Präsentationen/EuroPsy/01.html",
+		"/Users/Oliver/Desktop/hallo ssl.html",
+		"/Users/Oliver/Desktop/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/BÖP/Präsentationen/Design Erweitert/09.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/BÖP/Präsentationen/Design Erweitert/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/BÖP/Präsentationen/Design Erweitert/04.html",
+		"/Volumes/Macintosh HD 2/Git/BÖP/p13003-www-rails/app/assets/stylesheets/content.sass",
+		"/Volumes/Macintosh HD 2/Git/BÖP/p13003-www-rails/app/views/layouts/application.html.slim",
+		"/Volumes/Macintosh HD 2/Git/BÖP/p13003-www-rails/.gitmodules",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Übungen/Margin, Padding, Border/style/style.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Übungen/Webtypo 1/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/Bureau/Website/style.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/Bureau/Website/index Kopie.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MELB/2. Einheit/Restaurant Website Struktur/index.html",
+		"/Users/Oliver/Desktop/sdf/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/AVIA/Website/Code Snippets/buttons.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/AVIA/Website/Code Snippets/stylebutton.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/Zeichenschatz Design/Website/Backups/Website 2013 06 19/wp-content/themes/hayden-child/style.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MELB/1. Einheit/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MELB/1. Einheit/file.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MELB/index.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Inhalte Abendkolleg.md",
+		"/Users/Oliver/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Code/ÖAP/Build/css/style.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/3 Überarbeitung/07.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/3 Überarbeitung/08.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/BÖP/Präsentationen/Design/03.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/2 Überarbeitung/04.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/3 Überarbeitung/07 Kopie.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/07.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Code/ÖAP/css/bootstrap.css",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Code/ÖAP/curr-termine.haml",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Code/ÖAP/curr-allg.haml",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Code/ÖAP/css/style.sass",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Präsentationen/4 Grundaufbau erweitert/08.html",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Code/ÖAP/includes/_nav-sub-2.haml",
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Code/ÖAP/index.haml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@extend %nav-bar",
+			"box-s",
+			" ",
+			"#nav-one",
+			"#999",
+			"folder",
+			"%a",
+			"event-box-fea",
+			"event-box:hover",
+			"grey",
+			"greysc",
+			" class=\"img-thumb\"",
+			"transition",
+			"footer",
+			" class=\"img-thumb\"",
+			"          .event-date ",
+			", ",
+			"class=\"img-thumb\"/>",
+			".event-location-feature",
+			".event-location",
+			".event-category",
+			"<img src=\"<!-- @path club-",
+			"400",
+			"club-14",
+			"20.09.",
+			"entry",
+			".event-category\n            ",
+			"          .event-category\n            ",
+			"          .event-date\n            ",
+			"club",
+			"href=\"<!-- @path category -->\"",
+			"%a(href=\"#\")",
+			"grid-gutter",
+			"grig-gutter",
+			"1_of_3",
+			"$shadow-boxes",
+			"shadow",
+			"box-shaddow",
+			"h1",
+			"h3",
+			"footer",
+			"include",
+			"$brand-light-grey",
+			"<a href=\"<!-- @path # -->\">",
+			".box",
+			"gal-red",
+			"gal-weiss",
+			"gal-rot",
+			"mittelgrau",
+			"jpeg",
+			"Mac Book",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 10pt;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 11pt;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 10pt;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 12px;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 11px;\">",
+			"<p style=\"text-align: left; line-height: 1.6;\">",
+			"</span>",
+			"<span style=\"font-size: 10pt;\">",
+			"<p style=\"text-align: left;\">",
+			"#content ul li",
+			"555",
+			"03.html",
+			"02.html",
+			"01.html",
+			"02.html",
+			"std",
+			"font-wei",
+			"fonts-bold",
+			"btn",
+			"button",
+			"p",
+			"ü",
+			"■■ ",
+			"navbar",
+			"footer-nav-meta",
+			"footernav",
+			"navmain",
+			"navmeta",
+			"subnav",
+			"input",
+			"stroudley",
+			"Stroundley",
+			"left",
+			"comingsoon",
+			"navi",
+			"header",
+			".header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@include nav-bar",
+			"			%li ",
+			"",
+			"          .event-date\n            ",
+			",\n            %span ",
+			"class=\"img-thumb\"/>\n          .flex-container\n            .info-containter",
+			".event-location",
+			".img-container <img src=\"<!-- @path club-",
+			".event-category ",
+			"          .event-category ",
+			"          .event-date ",
+			"href=\"#\"",
+			"%a(href=\"<!-- @path category -->\")",
+			"1-of-3",
+			"$brand-mid-grey",
+			"<a href=\"#\">",
+			".event-box",
+			"brand-red",
+			"brand-white",
+			"gal-red",
+			"brand-grey",
+			"MacBook",
+			"<p style=\"text-align: left; line-height: 1.7; font-size: 10pt;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 10pt;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 11pt;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 10pt;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 12px;\">",
+			"<p style=\"text-align: left; line-height: 1.6; font-size: 11px;\">",
+			"",
+			"<p style=\"text-align: left; line-height: 1.6;\">",
+			"<p style=\"text-align: left; line-height: 1.6;\">Es",
+			"index.html",
+			"03.html",
+			"02.html",
+			"01.html",
+			"ü",
+			"%li ",
+			"",
+			"nav-bar",
+			"nav-meta-footer",
+			"nav-footer",
+			"nav-main",
+			"nav-meta",
+			"nav-sub"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/css/_navigations.sass",
+					"settings":
+					{
+						"buffer_size": 1013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 305.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/_responsive.sass",
+					"settings":
+					{
+						"buffer_size": 307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/_layout.sass",
+					"settings":
+					{
+						"buffer_size": 846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								772,
+								772
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true
+}

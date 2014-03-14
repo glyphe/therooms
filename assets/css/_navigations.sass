@@ -60,20 +60,48 @@ nav ul
 		margin-bottom: 1em
 
 	@include respond-to(medium-screens)
+		@include nav-bar
+		padding: 0
 		position: absolute
 		bottom: 0
 		width: 100%
 
-		@include nav-bar
-
 
 	ul
-
 		@include respond-to(medium-screens)
 			display: flex
 			justify-content: center
 
 	li
-
 		@include respond-to(medium-screens)
-			margin: 0 0.5em
+			border-left: 1px solid $light-gray
+
+			&:last-child
+				border-right: 1px solid $light-gray
+
+	a
+		@include respond-to(medium-screens)
+			display: inline-block
+			text-align: center
+			line-height: 1.1
+			padding: 1em
+
+			&:after
+				font-family: "FontAwesome"
+				content: "\f13a"
+				display: block
+				margin-top: 0.3em
+
+
+			&:link, &:visited
+				color: $text-color
+				transition: background-color 0.5s ease
+
+			&:hover
+				background-color: $white
+
+
+			
+
+
+
