@@ -32,7 +32,6 @@
 					%ul
 						%li Ein Kingsize Bett
 						%li Auf Wunsch ein Zustellbett
-
 					%h4 Lage des Zimmers
 					%p 1. Stock, Gartenseite
 
@@ -47,6 +46,21 @@
 						%li WIFI im Zimmer
 						%li Schreibtisch
 						%li Kleiderschrank
+
+	%section.sec-impressions
+		.wrapper
+			%div
+				%img(src="<!-- @path inspiration_detail_01 -->")
+			%div
+				%img(src="<!-- @path inspiration_detail_02 -->")
+			%div
+				%img(src="<!-- @path inspiration_detail_03 -->")
+			%div
+				%img(src="<!-- @path inspiration_detail_04 -->")
+			%div
+				%img(src="<!-- @path inspiration_detail_05 -->")
+			%div
+				%img(src="<!-- @path inspiration_detail_06 -->")
 
 	%section.sec-reviews
 		.wrapper
@@ -63,8 +77,46 @@
 		%h3 Preise & buchen
 
 		.wrapper
-			%h4 Preise
-			%h4 Buchen
+			%div
+				%table
+					%tr
+						%th 
+							%h4 Preise
+						%th <i class="fa fa-user"></i>
+						%th <i class="fa fa-user"></i> <i class="fa fa-user"></i> 
+						%th <i class="fa fa-user"></i> <i class="fa fa-user"></i> <i class="fa fa-user"></i> 
+					%tr
+						%th
+							%span Hauptsaison
+							März bis Dezember
+						%td € 95,00
+						%td € 110,00
+						%td € 125,00
+					%tr
+						%th
+							%span Nebensaison
+							Februar und März
+						%td € 60,00
+						%td € 75,00
+						%td € 90,00
+
+			%div
+				%form
+					%h4 Buchen
+					.formgroup
+						%div
+							%label(for="check-in") Ankunft
+							%input(type="date" name="check-in")
+						%div
+							%label(for="check-out") Abreise
+							%input(type="date" name="check-out")
+						%div
+							%label(for="guests") Anzahl Gäste
+							%select(name="guests")
+								%option 1 Person
+								%option 2 Personen
+								%option 3 Personen
+					%input(type="submit" value="Verfügbarkeit prüfen")
 
 	%section.sec-breakfast#breakfast
 		%header

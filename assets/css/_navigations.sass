@@ -11,8 +11,10 @@ nav ul
 
 @mixin nav-bar
 	background-color: $background-color-nav
-	border-bottom: 1px solid $light-gray
+	border-bottom: 1px solid $light-grey
 	padding: 1em 0
+	transition: background-color 0.4s ease-out, box-shadow 0.2s ease-in 0.1s
+
 
 
 .logo
@@ -60,8 +62,6 @@ nav ul
 		margin-bottom: 1em
 
 	@include respond-to(medium-screens)
-		@include nav-bar
-		padding: 0
 		position: absolute
 		bottom: 0
 		width: 100%
@@ -69,15 +69,17 @@ nav ul
 
 	ul
 		@include respond-to(medium-screens)
-			display: flex
-			justify-content: center
+			@include nav-bar
+			padding: 0
+			text-align: center
 
 	li
 		@include respond-to(medium-screens)
-			border-left: 1px solid $light-gray
+			display: inline-block
+			border-left: 1px solid $light-grey
 
 			&:last-child
-				border-right: 1px solid $light-gray
+				border-right: 1px solid $light-grey
 
 	a
 		@include respond-to(medium-screens)
@@ -100,6 +102,17 @@ nav ul
 			&:hover
 				background-color: $white
 
+.sticky
+	position: fixed
+	width: 100%
+	left: 0
+	top: 0
+	z-index: 100
+
+	ul
+		background-color: rgba(255,255,255,.99)
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15)
+		border-bottom: 0
 
 			
 

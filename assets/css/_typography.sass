@@ -5,12 +5,15 @@
 	font-weight: normal
 	line-height: 1
 
+@mixin font-skolar
+	font-family: "skolar", serif
+
 
 // ###### GENERAL TYPO SETTINGS ######
 
 body
 	color: $text-color
-	font-family: "skolar", serif
+	@include font-skolar
 	font-size: 1.1em
 
 p

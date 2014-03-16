@@ -1,0 +1,17 @@
+input
+	@include font-skolar
+	border: 2px $mid-grey solid
+	border-radius: 2px
+	padding: 0 0.3em
+	background-color: $white
+
+	&[type="submit"]
+		@extend .btn
+		background-color: $brand-color-2
+		border: none
+		color: $white
+
+select
+	@extend input
+	-webkit-appearance: none
+	background-color: none
