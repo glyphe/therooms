@@ -1,4 +1,7 @@
-// ###### GENERAL LAYOUT SETTINGS ######
+// ################################
+// ###### BASIC NAV SETTINGS ######
+// ################################
+
 
 nav ul
 	padding: 0
@@ -16,6 +19,9 @@ nav ul
 	transition: background-color 0.4s ease-out, box-shadow 0.2s ease-in 0.1s
 
 
+// ######################
+// ###### MAIN NAV ######
+// ######################
 
 .logo
 	width: 200px
@@ -35,6 +41,30 @@ nav ul
 		li:nth-last-child(2)
 			margin-left: auto
 
+			a
+				@include font-finch
+				padding: 0.2em 0.3em 0
+				border-radius: 3px
+				font-size: 1.7em
+				color: $white
+				background-color: $brand-color-1
+				text-transform: uppercase
+				transition: all 0.5s ease-out
+
+				&:hover
+					background-color: $brand-color-2
+
+	select
+		font-size: 0.8em
+		border-width: 1px
+		background-color: $lighter-grey
+		color: $dark-grey
+
+
+
+// #####################
+// ###### SUB NAV ######
+// #####################
 
 .nav-sub
 	@include nav-bar
@@ -54,6 +84,10 @@ nav ul
 		margin: 0 0.5em
 
 
+
+// ########################
+// ###### INPAGE NAV ######
+// ########################
 
 .nav-inpage
 
@@ -102,6 +136,7 @@ nav ul
 			&:hover
 				background-color: $white
 
+// Wenn Inpage-Nav top ist, wird diese Class angewandt
 .sticky
 	position: fixed
 	width: 100%

@@ -285,7 +285,19 @@ section
 footer
 	padding: 1em 0 2em
 	border-top: solid 2px $light-grey
+	color: $dark-grey
 
+	@include respond-to(medium-screens)
+		@include grid(0 1em)
+
+		> div
+			@include col-1-2
+
+		div:last-child
+			text-align: right
+
+		i
+			margin: 0 0.2em 0 1em
 
 
 // ########################
