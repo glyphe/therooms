@@ -23,17 +23,19 @@ nav ul
 // ###### MAIN NAV ######
 // ######################
 
-.logo
-	width: 200px
-
-
 .nav-main
 	@include nav-bar
+
+	.logo
+		width: 170px
+
+		@include respond-to(wide-screens)
+			width: 200px
 
 	li
 		margin: 0.5em
 
-	@include respond-to(medium-screens)
+	@include respond-to(wide-screens)
 		ul
 			display: flex
 			align-items: baseline
@@ -73,6 +75,10 @@ nav ul
 		display: none
 
 	@include respond-to(medium-screens)
+		text-align: center
+
+	@include respond-to(wide-screens)
+		text-align: left
 		position: absolute
 		top: 0
 		width: 100%	
@@ -95,7 +101,7 @@ nav ul
 		text-align: center
 		margin-bottom: 1em
 
-	@include respond-to(medium-screens)
+	@include respond-to(wide-screens)
 		position: absolute
 		bottom: 0
 		width: 100%
@@ -106,6 +112,10 @@ nav ul
 			@include nav-bar
 			padding: 0
 			text-align: center
+			font-size: 0.85em
+
+		@include respond-to(wide-screens)
+			font-size: 1em
 
 	li
 		@include respond-to(medium-screens)
@@ -138,16 +148,17 @@ nav ul
 
 // Wenn Inpage-Nav top ist, wird diese Class angewandt
 .sticky
-	position: fixed
-	width: 100%
-	left: 0
-	top: 0
-	z-index: 100
+	@include respond-to(medium-screens)
+		position: fixed
+		width: 100%
+		left: 0
+		top: 0
+		z-index: 100
 
-	ul
-		background-color: rgba(255,255,255,.99)
-		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15)
-		border-bottom: 0
+		ul
+			background-color: rgba(255,255,255,.99)
+			box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15)
+			border-bottom: 0
 
 			
 

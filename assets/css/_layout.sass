@@ -60,6 +60,9 @@ section
 
 	h2
 		@include respond-to(medium-screens)
+			margin-bottom: 1.5em
+
+		@include respond-to(wide-screens)
 			width: 300px
 			height: 300px
 			border-radius: 50%
@@ -116,7 +119,7 @@ section
 .sec-impressions
 
 	.wrapper
-		@include grid
+		@include grid(0.8em)
 
 		img
 			width: 100%
