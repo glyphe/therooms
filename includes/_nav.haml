@@ -2,11 +2,21 @@
 
   .wrapper
 
-    %ul
-      %li 
+    %ul.nav-main-logo
+      %li
         %h1
           %a(href="#")
-            %img.logo(src="<!-- @path therooms_logo -->" alt="the rooms")
+            %img(src="<!-- @path therooms_logo -->" alt="the rooms")
+      %li
+        %a(href="#") Buchen
+      %li
+        %select
+          %option DE
+          %option EN
+          %option FR
+          %option RU
+
+    %ul.nav-main-links
       %li
         %a(href="#") Bed & Breakfast
       %li

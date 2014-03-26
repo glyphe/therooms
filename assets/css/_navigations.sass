@@ -26,41 +26,78 @@ nav ul
 .nav-main
 	@include nav-bar
 
-	.logo
-		width: 170px
-
-		@include respond-to(wide-screens)
-			width: 200px
-
 	li
+		margin: 0.2em
+
+		@include respond-to(medium-screens)
 		margin: 0.5em
 
-	@include respond-to(wide-screens)
-		ul
-			display: flex
-			align-items: baseline
+	li:nth-last-child(2)
+		margin-left: auto
 
-		li:nth-last-child(2)
-			margin-left: auto
+		a
+			@include font-finch
+			padding: 0.2em 0.3em 0
+			border-radius: 3px
+			font-size: 1.5em
+			color: $white
+			background-color: $brand-color-1
+			text-transform: uppercase
+			transition: all 0.5s ease-out
+			letter-spacing: 1px
 
-			a
-				@include font-finch
-				padding: 0.2em 0.3em 0
-				border-radius: 3px
-				font-size: 1.7em
-				color: $white
-				background-color: $brand-color-1
-				text-transform: uppercase
-				transition: all 0.5s ease-out
+			@include respond-to(handhelds)
+				font-size: 1.3em
 
-				&:hover
-					background-color: $brand-color-2
+			&:hover
+				background-color: $brand-color-2
 
 	select
 		font-size: 0.8em
 		border-width: 1px
 		background-color: $lighter-grey
 		color: $dark-grey
+
+
+.nav-main-logo
+	display: flex
+	align-items: center
+
+	@include respond-to(wide-screens)
+		float: left
+	
+	li:nth-last-child(-n+2)
+		display: none
+
+		@include respond-to(medium-screens)
+			display: inherit
+
+		@include respond-to(wide-screens)
+			display: none
+
+	h1 // Logo
+		img
+			width: 170px
+
+			@include respond-to(wide-screens)
+				width: 200px
+				margin-top: -0.1em
+
+
+.nav-main-links
+	@include respond-to(medium-screens)
+		display: flex
+		align-items: center
+
+
+	li:nth-last-child(-n+2)
+		display: none
+		@include respond-to(handhelds)
+			display: inherit
+		@include respond-to(wide-screens)
+			display: inherit
+
+
 
 
 
