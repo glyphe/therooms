@@ -9,7 +9,10 @@ img
 
 .wrapper
 	@extend %center
-	padding: 0 $outer-padding
+	padding: 0 1.5em
+
+	@include respond-to(handhelds)
+		padding: 0 0.75em
 
 	@include respond-to(medium-screens)
 		max-width: $wrapper-max-width
@@ -59,13 +62,18 @@ section
 			margin: 0 auto
 
 	h2
-		@include respond-to(medium-screens)
-			margin-bottom: 1.5em
+		@include after-nav-main	// Hintergrundmuster unter Hauptnavi
+		margin: 0
+		padding: 1.5em 0
 
+		@include respond-to(handhelds)
+			font-size: 1.3em
+		
 		@include respond-to(wide-screens)
 			width: 300px
 			height: 300px
 			border-radius: 50%
+			background: none
 			background-color: $background-color-sec-title-bubble
 			display: flex
 			flex-direction: column
