@@ -9,10 +9,10 @@ img
 
 .wrapper
 	@extend %center
-	padding: 0 1.5em
+	padding: 0 $outer-padding
 
 	@include respond-to(handhelds)
-		padding: 0 0.75em
+		padding: 0 1em
 
 	@include respond-to(medium-screens)
 		max-width: $wrapper-max-width
@@ -28,6 +28,8 @@ img
 
 section
 	margin: 6em 0 2em
+	@include respond-to(handhelds)
+		margin: 3em 0 1em
 
 	header
 		margin: 1em 0 .5em
@@ -36,15 +38,23 @@ section
 		font-size: 1.3em
 		color: $brand-color-2
 		text-shadow: 0px 1px 10px rgba(255,255,255,0.5)
+		@include respond-to(handhelds)
+			padding-top: 1.5em
+			padding-bottom: 1em
 
 		h3, p
 			margin: 0
 
 		h3
 			letter-spacing: 1px
+			@include respond-to(handhelds)
+				font-size: 2.5em
 
 		p
 			font-style: italic
+			line-height: 1.2
+			@include respond-to(handhelds)
+				font-size: 0.9em
 
 
 .sec-title
@@ -72,8 +82,8 @@ section
 		
 		@include respond-to(wide-screens)
 			color: inherit
-			width: 300px
-			height: 300px
+			width: 350px
+			height: 350px
 			border-radius: 50%
 			background: none
 			background-color: $background-color-sec-title-bubble
@@ -83,9 +93,9 @@ section
 			position: absolute
 			left: 50%
 			top: 50%
-			margin-left: -150px
-			margin-top: -170px
-			padding: 1em
+			margin-left: -175px
+			margin-top: -175px
+			padding: 2em
 			
 
 
@@ -98,6 +108,9 @@ section
 		font-style: italic
 		max-width: 900px
 		margin: 0 auto 2em
+
+		@include respond-to(handhelds)
+			font-size: 1.1em
 
 	// Bezieht sich auf das Floorplan-Bild
 	img
@@ -119,7 +132,7 @@ section
 			margin-bottom: -0.2em
 
 		@include respond-to(medium-screens)
-			@include grid(0)
+			@include grid(0.8em)
 
 			> div
 				@include col-1-3
@@ -127,6 +140,30 @@ section
 
 // Eindrücke
 .sec-impressions
+	margin-top: 0
+
+	// Ergänzungstext zu den Bildern
+	.info-text
+		background-color: rgba(desaturate($brand-color-complement, 20%), 0.7)
+		position: relative
+		display: flex
+		display: -webkit-flex
+
+		> div
+			@include font-finch
+			font-size: 2.2em
+			color: $white
+			margin: auto
+			padding: 0.5em
+			@include respond-to(handhelds)
+				font-size: 2em
+
+		@include respond-to(medium-screens)	// stellt Hohe der Box wie Breite ein
+			&:before
+				content: ""
+				display: block
+				padding-top: 100%
+
 
 	.wrapper
 		@include grid(0.8em)
@@ -161,17 +198,24 @@ section
 	table h4
 		margin-bottom: -0.2em
 
-
-	@include respond-to(medium-screens)
-		.wrapper
+	.wrapper
+		@include respond-to(wide-screens)
 			@include grid (1.5em)
 
-			> div
+		> div
+			margin-bottom: 2em
+			@include respond-to(wide-screens)
 				@include col-1-2
 
 	table, form
 		width: 100%
+		margin: 0 auto
+		max-width: 600px
 		border: 2px solid $light-grey
+
+	table
+		@include respond-to(handhelds)
+			font-size: .7em
 
 	tr
 		background-color: $white-semi-transparent
@@ -201,10 +245,11 @@ section
 			text-align: left
 
 		span
-			text-transform: uppercase
-			letter-spacing: 2px
-			font-style: normal
-			display: block
+			@include respond-to(medium-screens)
+				text-transform: uppercase
+				letter-spacing: 2px
+				display: block
+				font-style: normal
 
 	form
 		background-color: $white-semi-transparent
@@ -260,24 +305,14 @@ section
 					@include col-1-3
 
 
-// Weitere Zimmer
-.sec-other-rooms
-	padding: 1em 0 2em
-	background: url(bg_light_grey)
-
-	.wrapper
-		@include respond-to(medium-screens)
-			@include grid(0 1em)
-
-			> div
-				@include col-1-3
-
-
-// Quotes aus den Reviews
+// Reviews und Quote
 .sec-reviews
 	background: url(reviews-bg.jpg)
 	background-size: cover
 	padding: 6em 0 5em
+	@include respond-to(handhelds)
+		padding-top: 2em
+		padding-bottom: 2em
 
 	figure
 		text-align: center
@@ -290,39 +325,71 @@ section
 	blockquote
 		max-width: 800px
 		margin: 0 auto
+		@include respond-to(handhelds)
+			font-size: 2em
 
 	cite
 		display: block
 		margin: 1em 0
 
 footer
-	padding: 1em 0 2em
-	border-top: solid 2px $light-grey
-	color: $dark-grey
+	margin-top: -7px
+	padding: 2em 0
+	color: $white
+	background: url(footer-bg.png) repeat-x transparent
+	background-position: left top
 
-	@include respond-to(medium-screens)
-		@include grid(0 1em)
+	i
+		margin: 0 0.2em 0
 
-		> div
-			@include col-1-2
+	.wrapper
+		padding: 0 2.5em
 
-		div:last-child
-			text-align: right
+		@include respond-to(medium-screens)
+			display: flex
+			display: -webkit-flex
 
-		i
-			margin: 0 0.2em 0 1em
+			> div
+				display: inline-block
+
+			div:nth-last-child(2)
+				margin-left: auto
+				margin-right: 1em
+
+
 
 
 // ########################
 // ###### COMPONENTS ######
 // ########################
 
+
+// Weitere Zimmer
+.sec-other-rooms
+	margin-bottom: 0
+	padding: 1em 0 2em
+	background: url(textured_paper) #ccc
+	border-top: 1px solid $light-grey
+
+	.wrapper
+		@include respond-to(medium-screens)
+			@include grid(0 1em)
+
+			> div
+				@include col-1-2
+				@include respond-to(wide-screens)
+					@include col-1-3
+
+
+// Box Zimmer
 .box-room
-	padding: 0.5em 0.5em 1.5em 0.5em
+	padding: 0.3em 0.3em 1.5em 0.3em
 	margin: 2em 0
 	background-color: $white
-	box-shadow: 0px 1px 4px rgba(0,0,0,0.4)
 	text-align: center
+	border: 10px solid $white
+	border-image: url(brush-border.png) 10 10 10 10 stretch
+	background-clip: padding-box
 
 	img
 		width: 100%

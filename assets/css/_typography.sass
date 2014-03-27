@@ -9,7 +9,9 @@
 	font-family: "skolar", serif
 
 
-// ###### GENERAL TYPO SETTINGS ######
+// ##############################
+// ###### GENERAL SETTINGS ######
+// ##############################
 
 body
 	color: $text-color
@@ -17,10 +19,12 @@ body
 	font-size: 1.1em
 
 p
-	margin: 0.5em 0
+	margin: 1.2em 0
 
 
-// ###### HEADINGS ######
+// #####################
+// ###### HEADING ######
+// #####################
 
 h2
 	font-family: "skolar", serif
@@ -32,13 +36,14 @@ h2
 
 h2 span
 	display: block
-	margin: 0.1em 0 0 0
+	margin: 0.2em 0 0 0
 
-h2 span, h3
+h2 span, h3  // Titel Zimmer/Apartments & Sektionen
 	@include font-finch
 	font-size: 3em
 	text-transform: uppercase
 	font-style: normal
+	line-height: 0.9
 
 h3
 	text-align: center
@@ -48,7 +53,7 @@ h3
 h4
 	color: $brand-color-2
 	font-style: italic
-	margin: 2em 0 0.5em
+	margin: 3em 0 0.5em
 
 
 // ###### QUOTES ######
@@ -81,21 +86,3 @@ cite
 		@include fa-icon($fa-var-check)
 		font-size: 0.8em
 		margin: 0 0.4em 0 -1.4em
-
-
-
-// ###################
-// ###### LINKS ######
-// ###################
-
-a:link, a:visited
-	color: $brand-color-1
-	text-decoration: none
-	transition: color 0.5s ease
-
-a:hover, a:active
-	color: $brand-color-2
-
-nav a:link.current, nav a:visited.current
-	color: $brand-color-2
-
