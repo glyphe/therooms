@@ -57,6 +57,39 @@ section
 				font-size: 0.9em
 
 
+// Startseite Begrüßung
+.sec-welcome
+	position: relative
+	margin-top: -2em
+	padding: 2em 0
+	overflow: hidden
+
+	.content
+		position: relative
+		z-index: 100
+		text-align: center
+
+	.bg-img
+		position: absolute
+		top: 0px
+		right: 0px
+		bottom: 0px
+		left: 0px
+		z-index: 1
+		background: url(home-bg.jpg)
+		background-size: cover
+		background-position: center
+		-webkit-filter: blur(3px) saturate(0.4) hue-rotate(340deg)
+
+	.wrapper
+		@include respond-to(medium-screens)
+			@include grid(1em)
+
+			> div
+				@include col-1-2
+	
+
+// Titelbereich Zimmer/Apartments mit Slider 
 .sec-title
 	margin: 0
 
@@ -104,10 +137,7 @@ section
 	margin-top: 0
 
 	.intro
-		font-size: 1.3em
-		font-style: italic
-		max-width: 900px
-		margin: 0 auto 2em
+		@include intro-text
 
 		@include respond-to(handhelds)
 			font-size: 1.1em
@@ -182,7 +212,6 @@ section
 		@include respond-to(wide-screens)
 			> div
 				@include col-1-3
-
 
 
 
@@ -318,9 +347,7 @@ section
 		text-align: center
 
 	blockquote, cite
-		color: $white
-		text-shadow: 0px 1px 4px rgba(0,0,0,0.75)
-		letter-spacing: 1px
+		@include text-over-image
 
 	blockquote
 		max-width: 800px
@@ -332,6 +359,8 @@ section
 		display: block
 		margin: 1em 0
 
+
+// Footer
 footer
 	margin-top: -7px
 	padding: 2em 0
@@ -390,6 +419,9 @@ footer
 	border: 10px solid $white
 	border-image: url(brush-border.png) 10 10 10 10 stretch
 	background-clip: padding-box
+	width: 100%
+	max-width: 400px
+	margin: 0 auto
 
 	img
 		width: 100%
