@@ -9,7 +9,9 @@
 	font-family: "skolar", serif
 
 
-// ###### GENERAL TYPO SETTINGS ######
+// ##############################
+// ###### GENERAL SETTINGS ######
+// ##############################
 
 body
 	color: $text-color
@@ -17,10 +19,26 @@ body
 	font-size: 1.1em
 
 p
-	margin: 0.5em 0
+	margin: 1.2em 0
 
 
-// ###### HEADINGS ######
+@mixin intro-text
+	font-size: 1.3em
+	font-style: italic
+	max-width: 900px
+	margin: 0 auto 2em
+
+
+@mixin text-over-image
+	color: $white
+	text-shadow: 0px 1px 4px rgba(0,0,0,0.75)
+	letter-spacing: 1px
+
+
+
+// #####################
+// ###### HEADING ######
+// #####################
 
 h2
 	font-family: "skolar", serif
@@ -32,13 +50,14 @@ h2
 
 h2 span
 	display: block
-	margin: 0.1em 0 0 0
+	margin: 0.2em 0 0 0
 
-h2 span, h3
+h2 span, h3  // Titel Zimmer/Apartments & Sektionen
 	@include font-finch
 	font-size: 3em
 	text-transform: uppercase
 	font-style: normal
+	line-height: 0.9
 
 h3
 	text-align: center
@@ -48,10 +67,12 @@ h3
 h4
 	color: $brand-color-2
 	font-style: italic
-	margin: 2em 0 0.5em
+	margin: 3em 0 0.5em
 
 
+// ####################
 // ###### QUOTES ######
+// ####################
 
 blockquote
 	@include font-finch
@@ -61,6 +82,27 @@ blockquote
 
 cite
 	font-style: normal
+
+
+
+// ######################
+// ###### SECTIONS ######
+// ######################
+
+
+// Willkommenstext Homepage
+.sec-welcome .content
+	h2
+		@extend h3
+		@include text-over-image
+		font-size: 3.5em
+
+	> p
+		@include intro-text
+		@include text-over-image
+		text-align: center
+		margin-bottom: .5em
+
 
 
 // ###################
@@ -78,25 +120,8 @@ cite
 		margin-bottom: 0.5em
 
 	li:before
-		font-family: "FontAwesome"
+		@include fa-icon($fa-var-check)
 		font-size: 0.8em
-		content: "\f00c"
 		margin: 0 0.4em 0 -1.4em
 
-
-
-// ###################
-// ###### LINKS ######
-// ###################
-
-a:link, a:visited
-	color: $brand-color-1
-	text-decoration: none
-	transition: color 0.5s ease
-
-a:hover, a:active
-	color: $brand-color-2
-
-nav a:link.current, nav a:visited.current
-	color: $brand-color-2
 

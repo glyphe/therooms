@@ -25,42 +25,118 @@ nav ul
 
 .nav-main
 	@include nav-bar
-
-	.logo
-		width: 170px
-
-		@include respond-to(wide-screens)
-			width: 200px
+	border-bottom: 0
+	background: url(top-nav-bg.png) repeat-x transparent
+	background-position: left bottom
+	position: relative
+	z-index: 100
+	margin-bottom: -5px
 
 	li
 		margin: 0.5em
 
-	@include respond-to(wide-screens)
-		ul
-			display: flex
-			align-items: baseline
+		@include respond-to(handhelds)
+			margin: 0
 
-		li:nth-last-child(2)
-			margin-left: auto
+	li:nth-last-child(2)
+		margin-left: auto
 
-			a
-				@include font-finch
-				padding: 0.2em 0.3em 0
-				border-radius: 3px
-				font-size: 1.7em
-				color: $white
-				background-color: $brand-color-1
-				text-transform: uppercase
-				transition: all 0.5s ease-out
+		a
+			@include font-finch
+			padding: 0.2em 0.3em 0
+			border-radius: 3px
+			font-size: 1.5em
+			color: $white
+			background-color: $brand-color-1
+			text-transform: uppercase
+			transition: all 0.5s ease-out
+			letter-spacing: 1px
+			border-bottom: none
 
-				&:hover
-					background-color: $brand-color-2
+			&:hover
+				background-color: $brand-color-2
 
 	select
 		font-size: 0.8em
 		border-width: 1px
 		background-color: $lighter-grey
 		color: $dark-grey
+
+		@include respond-to(handhelds)
+			font-size: 1.1em
+
+
+.nav-main-logo
+	display: -webkit-flex
+	display: flex
+	-webkit-align-items: center
+	align-items: center
+
+	@include respond-to(wide-screens)
+		float: left
+		margin-right: 1em
+	
+	@include respond-to(handhelds)
+		border-bottom: 1px solid $light-grey
+
+		&:after
+			@include fa-icon($fa-var-bars)
+			border-radius: 3px
+			border: 1px solid $light-grey
+			background-color: $lighter-grey
+			padding: 0.45em 0.6em 0.35em
+			display: inline-block
+			margin: -0.7em 0 0 auto
+			color: $dark-grey
+
+	li:nth-last-child(-n+2)
+		display: none
+
+		@include respond-to(medium-screens)
+			display: inherit
+
+		@include respond-to(wide-screens)
+			display: none
+
+	h1 // Logo
+		img
+			width: 170px
+
+			@include respond-to(handhelds)
+				margin-bottom: 0.5em
+
+			@include respond-to(wide-screens)
+				width: 200px
+				margin-top: -0.1em
+
+
+.nav-main-links
+	@include respond-to(handhelds)
+		font-size: 1.1em
+		padding-bottom: .8em
+
+	@include respond-to(medium-screens)
+		display: -webkit-flex
+		display: flex
+		-webkit-align-items: center
+		align-items: center
+
+	li:nth-last-child(-n+2)
+		display: none
+		@include respond-to(handhelds)
+			display: inline-block
+			margin: 0.7em 0.2em -0.1em 0.2em
+		@include respond-to(wide-screens)
+			display: inherit
+
+	a
+		@include respond-to(handhelds)
+			display: block
+			padding: 0.5em 0 0.5em 0.5em
+			border-bottom: 1px solid $light-grey
+
+			&:hover
+				background-color: $lighter-grey
 
 
 
@@ -70,24 +146,28 @@ nav ul
 
 .nav-sub
 	@include nav-bar
-
-	@include respond-to(handhelds)
-		display: none
-
-	@include respond-to(medium-screens)
-		text-align: center
+	@include after-nav-main	// Hintergrundmuster unter Hauptnavi
+	padding-top: 1.1em
+	display: none
 
 	@include respond-to(wide-screens)
+		display: inherit
 		text-align: left
-		position: absolute
-		top: 0
-		width: 100%	
+
 
 		ul
 			margin-left: 220px
 
 	li
-		margin: 0 0.5em
+		margin: 0.2em 0.5em
+
+	li:last-child
+
+		a:before
+			@include fa-icon($fa-var-info-circle)
+			font-size: 0.9em
+			margin-right: 0.2em
+
 
 
 
@@ -97,19 +177,14 @@ nav ul
 
 .nav-inpage
 
-	@include respond-to(handhelds)
-		text-align: center
-		margin-bottom: 1em
-
-	@include respond-to(wide-screens)
-		position: absolute
-		bottom: 0
-		width: 100%
-
-
 	ul
+		@include nav-bar
+		background-color: rgba(255,255,255,.99)
+
+		@include respond-to(handhelds)
+			padding: 0
+
 		@include respond-to(medium-screens)
-			@include nav-bar
 			padding: 0
 			text-align: center
 			font-size: 0.85em
@@ -118,6 +193,9 @@ nav ul
 			font-size: 1em
 
 	li
+		@include respond-to(handhelds)
+			border-bottom: 1px solid $light-grey
+
 		@include respond-to(medium-screens)
 			display: inline-block
 			border-left: 1px solid $light-grey
@@ -126,25 +204,32 @@ nav ul
 				border-right: 1px solid $light-grey
 
 	a
+		line-height: 1.1
+		padding: 1em
+		@include respond-to(handhelds)
+			display: block
+
 		@include respond-to(medium-screens)
 			display: inline-block
-			text-align: center
-			line-height: 1.1
-			padding: 1em
 
-			&:after
-				font-family: "FontAwesome"
-				content: "\f13a"
+		&:after
+			@include fa-icon($fa-var-chevron-circle-down)
+
+			@include respond-to(handhelds)
+				margin-left: 0.4em
+				font-size: 0.8em
+
+			@include respond-to(medium-screens)
 				display: block
 				margin-top: 0.3em
 
 
-			&:link, &:visited
-				color: $text-color
-				transition: background-color 0.5s ease
+		&:link, &:visited
+			color: $text-color
+			transition: background-color 0.5s ease
 
-			&:hover
-				background-color: $white
+		&:hover
+			background-color: $lighter-grey
 
 // Wenn Inpage-Nav top ist, wird diese Class angewandt
 .sticky
@@ -156,7 +241,6 @@ nav ul
 		z-index: 100
 
 		ul
-			background-color: rgba(255,255,255,.99)
 			box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15)
 			border-bottom: 0
 
