@@ -4,12 +4,64 @@
 		"selected_items":
 		[
 			[
-				"font-s",
-				"font-size"
+				"margin",
+				"margin-top"
+			],
+			[
+				"bran",
+				"brand-color-1"
+			],
+			[
+				"brand-c",
+				"brand-color-1"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"font-",
+				"font-finch"
+			],
+			[
+				"lig",
+				"lighter-grey"
 			],
 			[
 				"in",
 				"include"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"re",
+				"respond-to"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"brand",
+				"brand-color-2"
+			],
+			[
+				"bra",
+				"brand-color-1"
+			],
+			[
+				"nav-main-",
+				"nav-main-book"
+			],
+			[
+				"font-s",
+				"font-size"
 			],
 			[
 				"backrou",
@@ -24,20 +76,12 @@
 				"background"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"alig",
 				"align-items"
 			],
 			[
 				"wrapp",
 				"wrapper-padding"
-			],
-			[
-				"wid",
-				"width"
 			],
 			[
 				"br",
@@ -78,10 +122,6 @@
 			[
 				"min-",
 				"min-height"
-			],
-			[
-				"brand",
-				"brand-white"
 			],
 			[
 				"trans",
@@ -159,7 +199,23 @@
 			"file": "index.haml",
 			"settings":
 			{
-				"buffer_size": 6185,
+				"buffer_size": 1202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "apartments.haml",
+			"settings":
+			{
+				"buffer_size": 1580,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sections/_sec-reviews.haml",
+			"settings":
+			{
+				"buffer_size": 302,
 				"line_ending": "Unix"
 			}
 		},
@@ -167,15 +223,47 @@
 			"file": "assets/css/style.sass",
 			"settings":
 			{
-				"buffer_size": 216,
+				"buffer_size": 251,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "includes/_nav-inpage-bnb.haml",
+			"file": "includes/_nav.haml",
 			"settings":
 			{
-				"buffer_size": 234,
+				"buffer_size": 753,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/_footer.haml",
+			"settings":
+			{
+				"buffer_size": 208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/_nav-sub-apartments.haml",
+			"settings":
+			{
+				"buffer_size": 250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bnb.haml",
+			"settings":
+			{
+				"buffer_size": 1557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "apartment-fantastic.haml",
+			"settings":
+			{
+				"buffer_size": 6540,
 				"line_ending": "Unix"
 			}
 		},
@@ -183,7 +271,7 @@
 			"file": "assets/css/_buttons.sass",
 			"settings":
 			{
-				"buffer_size": 358,
+				"buffer_size": 352,
 				"line_ending": "Unix"
 			}
 		},
@@ -191,15 +279,7 @@
 			"file": "assets/css/_variables.sass",
 			"settings":
 			{
-				"buffer_size": 587,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/_typography.sass",
-			"settings":
-			{
-				"buffer_size": 1447,
+				"buffer_size": 620,
 				"line_ending": "Unix"
 			}
 		},
@@ -207,7 +287,47 @@
 			"file": "assets/css/_navigations.sass",
 			"settings":
 			{
-				"buffer_size": 2712,
+				"buffer_size": 4443,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_typography.sass",
+			"settings":
+			{
+				"buffer_size": 2831,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_general.sass",
+			"settings":
+			{
+				"buffer_size": 403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_layout.sass",
+			"settings":
+			{
+				"buffer_size": 840,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_sections.sass",
+			"settings":
+			{
+				"buffer_size": 6876,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_links.sass",
+			"settings":
+			{
+				"buffer_size": 657,
 				"line_ending": "Unix"
 			}
 		}
@@ -252,14 +372,23 @@
 	},
 	"file_history":
 	[
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/_responsive.sass",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav-inpage-bnb.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/_links",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/_navigations.sass",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_variables.scss",
+		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav-inpage-apartment.haml",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/font-awesome.scss",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_stacked.scss",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_list.scss",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_bordered-pulled.scss",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_core.scss",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_icons.scss",
+		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_mixins.scss",
 		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/_layout.sass",
 		"/Volumes/Macintosh HD 2/Dropbox/GRAFIK/Zeichenschatz/ÖAP/Präsentationen/5 Meine ÖAP/06.html",
 		"/Volumes/Macintosh HD 2/Git/therooms/includes/_header.haml",
 		"/Volumes/Macintosh HD 2/Git/PGO/includes/_header.haml",
-		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/_navigations.sass",
-		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/font-awesome.scss",
-		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/_responsive.sass",
-		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_variables.scss",
 		"/Volumes/Macintosh HD 2/Git/therooms/assets/fonts/font-awesome/_path.scss",
 		"/Volumes/Macintosh HD 2/Git/therooms/index.haml",
 		"/Volumes/Macintosh HD 2/Git/gridtest/assets/css/responsive.sass",
@@ -279,7 +408,6 @@
 		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav.haml",
 		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/navigations.sass",
 		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/layout.sass",
-		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav-inpage-bnb.haml",
 		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav_inpage_bnb.haml",
 		"/Volumes/Macintosh HD 2/Git/therooms/includes/_nav_rooms.haml",
 		"/Volumes/Macintosh HD 2/Git/therooms/assets/css/style.sass",
@@ -371,15 +499,7 @@
 		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MELB/1. Einheit/index.html",
 		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MELB/1. Einheit/file.html",
 		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/MELB/index.html",
-		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Inhalte Abendkolleg.md",
-		"/Users/Oliver/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/ÖAP/Code/ÖAP/Build/css/style.css",
-		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/3 Überarbeitung/07.html",
-		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/3 Überarbeitung/08.html",
-		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/BÖP/Präsentationen/Design/03.html",
-		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/2 Überarbeitung/04.html",
-		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/3 Überarbeitung/07 Kopie.html",
-		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Zeichenschatz/SONNOS/Social Media/Facebook App/Präsentation/07.html"
+		"/Volumes/Macintosh HD 2/Dropbox/Grafik/Graphische/Inhalte Abendkolleg.md"
 	],
 	"find":
 	{
@@ -398,6 +518,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"awesome",
+			"fa",
+			"center",
+			"background-image",
+			"a:",
+			"inspiration",
+			"5em",
+			"frühstück",
+			"red",
+			"//",
+			"$outer-padding: 1.5em",
 			"@extend %nav-bar",
 			"box-s",
 			" ",
@@ -547,7 +678,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -555,15 +686,15 @@
 					"file": "index.haml",
 					"settings":
 					{
-						"buffer_size": 6185,
+						"buffer_size": 1202,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								416,
+								416
 							]
 						],
 						"settings":
@@ -573,30 +704,32 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 932.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "assets/css/style.sass",
+					"file": "apartments.haml",
 					"settings":
 					{
-						"buffer_size": 216,
+						"buffer_size": 1580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								698,
+								698
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -606,18 +739,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "includes/_nav-inpage-bnb.haml",
+					"file": "sections/_sec-reviews.haml",
 					"settings":
 					{
-						"buffer_size": 234,
+						"buffer_size": 302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								234,
-								234
+								0,
+								302
 							]
 						],
 						"settings":
@@ -629,34 +762,26 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 3,
-					"file": "assets/css/_buttons.sass",
+					"file": "assets/css/style.sass",
 					"settings":
 					{
-						"buffer_size": 358,
+						"buffer_size": 251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								249,
+								251
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -666,23 +791,25 @@
 				},
 				{
 					"buffer": 4,
-					"file": "assets/css/_variables.sass",
+					"file": "includes/_nav.haml",
 					"settings":
 					{
-						"buffer_size": 587,
+						"buffer_size": 753,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								466,
+								466
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -692,18 +819,135 @@
 				},
 				{
 					"buffer": 5,
-					"file": "assets/css/_typography.sass",
+					"file": "includes/_footer.haml",
 					"settings":
 					{
-						"buffer_size": 1447,
+						"buffer_size": 208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "includes/_nav-sub-apartments.haml",
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "bnb.haml",
+					"settings":
+					{
+						"buffer_size": 1557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1531,
+								1531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "apartment-fantastic.haml",
+					"settings":
+					{
+						"buffer_size": 6540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3764,
+								3764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2419.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "assets/css/_buttons.sass",
+					"settings":
+					{
+						"buffer_size": 352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								352
 							]
 						],
 						"settings":
@@ -713,25 +957,189 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 683.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "assets/css/_navigations.sass",
+					"buffer": 10,
+					"file": "assets/css/_variables.sass",
 					"settings":
 					{
-						"buffer_size": 2712,
+						"buffer_size": 620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "assets/css/_navigations.sass",
+					"settings":
+					{
+						"buffer_size": 4443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2945,
+								2945
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2155.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "assets/css/_typography.sass",
+					"settings":
+					{
+						"buffer_size": 2831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2828,
+								2749
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2222.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "assets/css/_general.sass",
+					"settings":
+					{
+						"buffer_size": 403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "assets/css/_layout.sass",
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "assets/css/_sections.sass",
+					"settings":
+					{
+						"buffer_size": 6876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1772,
+								1772
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1443.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "assets/css/_links.sass",
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
 							]
 						],
 						"settings":
@@ -812,6 +1220,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 176.0,
+	"side_bar_width": 205.0,
 	"status_bar_visible": true
 }

@@ -3,19 +3,18 @@
 %main
 
 	%section.sec-title
-		<!-- @include _nav-sub-bnb -->
+		<!-- @include _nav-sub-apartments -->
 		%h2
-			№ 1
-			%span Inspiration
+			%span Fantastic Suite
 			Raum für neue Eingebungen
 
-		%img(src="<!-- @path inspiration_slider_01.jpg -->")
-		<!-- @include nav-inpage-bnb -->
+		%img(src="<!-- @path fantastic_slider_01.jpg -->")
+		<!-- @include nav-inpage-apartment -->
 
 	%section.sec-info#infos
 		.wrapper
 			%h3 Info & Ausstattung
-			%p.intro Indisch inspiriert schläft man in Inspiration in einem handgemachten Himmelbett unter einem Baldachin von Saris und lässt sich von erdigen Rottönen umhüllen. Ein chinesischer Hochzeitsschrank verstaut alles Mitgebrachte während die riesige Laterne aus Marrakech den Raum in zartem Licht erstrahlen lässt. So kommt man nach einer verträumten Nacht auf neue Ideen.
+			%p.intro Die Fanstastic Suite befindet sich im 2. Stock eines typischen Wiener Altbaus. Auf 44 m<sup>2</sup> finden sie ein Schlafzimmer mit einem Queen Size Bett, ein Wohnzimmer mit einem komfortablen Schlafsofa, eine kleine Küchenzeile im Eingangsbereich mit Gasherd, Mikrowelle, Kühlschrank und Waschmaschine, und ein stylishes Bad!
 
 			%img(src="<!-- @path floorplan-fantastic-suite -->")
 
@@ -23,30 +22,49 @@
 				%div
 					%h4 Basics
 					%ul
-						%li 1 bis 3 Personen
-						%li Frühstück inkludiert
-						%li Nichtraucher Zimmer
-						%li Checkin/out 11 Uhr
+						%li 1 bis 4 Personen
+						%li Ohne Verpflegung
+						%li Nichtraucher Apartment
+						%li 44 m<sup>2</sup>
 				%div
-					%h4 Bettenart
+					%h4 Betten
 					%ul
-						%li Ein Kingsize Bett
-						%li Auf Wunsch ein Zustellbett
-					%h4 Lage des Zimmers
-					%p 1. Stock, Gartenseite
+						%li Ein Queen Size Bett (160 × 200 cm)
+						%li Eine Doppelcouch
+					%h4 Lage der Wohnung
+					%p Wiener Altbau, 2. Stock mit Lift
+				%div
+					%h4 Adresse
+					%p Ausstellungsstraße 37/7<br>1020 Wien<br> Österreich
+					%a.google-maps(href="https://www.google.at/maps/place/Ausstellungsstra%C3%9Fe+37/@48.218183,16.4030031,17z/data=!3m1!4b1!4m2!3m1!1s0x476d071a51644065:0xeff5a6b3290e0f6a") Google Maps
 
+			.features
 				%div
-					%h4 Ausstattung
+					%h4 Wohnzimmer
 					%ul
-						%li Klimaanlage
-						%li WC und Badewanne
+						%li Bettwäsche
+						%li Gratis W-LAN
+						%li Kabel-TV/SAT-TV
+						%li CD-Player
+						%li Radio
+				%div
+					%h4 Küche
+					%ul
+						%li Kühlschrank
+						%li Gasherd
+						%li Geschirrausstattung
+						%li Geschirrspülmaschine
+						%li Kaffeemaschine
+						%li Tisch-/Küchenwäsche
+						%li Waschmaschine
+				%div
+					%h4 Bad
+					%ul
+						%li Fließend Kalt- und Warmwasser
+						%li WC und Dusche
+						%li L'Occitane Toilettartikel
+						%li Handtücher
 						%li Haarfön
-						%li L’Occitane Toilettenartikel
-						%li SAT TV
-						%li WIFI im Zimmer
-						%li Schreibtisch
-						%li Kleiderschrank
-
 	%section.sec-impressions
 		.wrapper
 			%div
@@ -111,24 +129,10 @@
 								%option 3 Personen
 					%input(type="submit" value="Verfügbarkeit prüfen")
 
-	%section.sec-breakfast#breakfast
-		%header
-			%h3 Unser Frühstück
-			%p Alles, was man für einen guten Start in den Tag braucht
-		%main
-			.wrapper
-				%div
-					%p Ein großer Teaktisch aus Indonesien wo man sich morgens trifft. Unser viel gelobtes Müsli wird selbst gemacht, ebenso wie die Marmeladen vom Obst aus dem Garten. Marille mit viel Rum, Zimt und Kardamon, Quitte mit Kürbis und Rosmarin oder Erdbeer mit Lavendel.
-					%p Unser Cafe kommt vom Lago di Garda, <em>Lucafe</em>, eine feine Rösterei welche köstlichen Cafe für unsere kleine rote Espressomaschine produziert. Wer einen Capuccino bei uns getrunken hat, will meistens noch einen zweiten.
-				%div
-					%p Ein Ei von glücklichen Hühnern wird nach Wunsch frisch zubereitet. Serviert wird auf handgetöpferten Tellern und Schalen aus Israel, geschnitten mit dem besonderen Kupferbesteck aus Indien und getrunken aus Teeschalen von kleinen Töpfereien in Japan. Alles findet hier in Harmonie zueinander.
-					%p Ein Frühstück für das es sich lohnt aufzustehen, sodass manche sogar Breakfast and Bed zu uns sagen würden.
-
-
 	%section.sec-umfeld#surroundings
 		%header
 			%h3 Umfeld & Aktivitäten
-			%p Die Alte Donau, Wiens schönster Erholungsraum, liegt gleich um die Ecke.
+			%p Entdecke Wien einfach und zentral vom 2. Bezirk aus
 		%main
 			.wrapper
 				%div
@@ -143,29 +147,46 @@
 					%h4 Zahlreiche Möglichkeiten den Gaumen zu erfreuen
 					%p Immer wieder stößt man auf verträumte Gaststätten direkt am Wasser. Auch im Winter kann man von der warmen Gaststube aus vorüberziehende Wasservögel beobachten oder die Pirouetten der Eisläufer bewundern.
 
+
+	%section.sec-breakfast#breakfast
+		%header
+			%h3 Anreise & Check-In
+			%p So kommst du am einfachsten zur Fantastic Suite
+		%main
+			.wrapper
+				%div
+					%h4 Mit dem Auto
+					%p Ein großer Teaktisch aus Indonesien wo man sich morgens trifft. Unser viel gelobtes Müsli wird selbst gemacht, ebenso wie die Marmeladen vom Obst aus dem Garten. Marille mit viel Rum, Zimt und Kardamon, Quitte mit Kürbis und Rosmarin oder Erdbeer mit Lavendel.
+					%p Unser Cafe kommt vom Lago di Garda, <em>Lucafe</em>, eine feine Rösterei welche köstlichen Cafe für unsere kleine rote Espressomaschine produziert. Wer einen Capuccino bei uns getrunken hat, will meistens noch einen zweiten.
+				%div
+					%h4 Öffentlich
+					%p Ein Ei von glücklichen Hühnern wird nach Wunsch frisch zubereitet. Serviert wird auf handgetöpferten Tellern und Schalen aus Israel, geschnitten mit dem besonderen Kupferbesteck aus Indien und getrunken aus Teeschalen von kleinen Töpfereien in Japan. Alles findet hier in Harmonie zueinander.
+					%p Ein Frühstück für das es sich lohnt aufzustehen, sodass manche sogar Breakfast and Bed zu uns sagen würden.
+
+
 	%section.sec-other-rooms
-		%h3 Weitere Zimmer
+		%h3 Weitere Apartments
 
 		.wrapper
 			%div
 				%div
-					%img(src="<!-- @path room-contemplation-thumb -->")
-					%h4 №1 Contemplation
-					%p Frisches Mittelmeerfliar<br>1 bis 2 Personen, inkl. Frühstück
+					%img(src="<!-- @path apartment-extreme-wow-thumb -->")
+					%h4 Extreme Wow Suite
+					%p Raum für neue Eingebungen<br>1 bis 3 Personen, ohne Verpflegung
 					%a.btn.btn-details(href="#") Details
 					%a.btn.btn-booking(href="#") Buchen
 			%div
 				%div
-					%img(src="<!-- @path room-inspiration-thumb -->")
-					%h4 №2 Inspiration
-					%p Raum für neue Eingebungen<br>1 bis 3 Personen, inkl. Frühstück
+					%img(src="<!-- @path apartment-marvelous-thumb -->")
+					%h4 Marvelous Suite
+					%p Frisches Mittelmeerfliar<br>1 bis 4 Personen, ohne Verpflegung
 					%a.btn.btn-details(href="#") Details
 					%a.btn.btn-booking(href="#") Buchen
 			%div
 				%div
-					%img(src="<!-- @path room-imagination-thumb -->")
-					%h4 №2 Imagination
-					%p Leben wie in 1001 Nacht<br>1 bis 3 Personen, inkl. Frühstück
+					%img(src="<!-- @path apartment-ocean-thumb -->")
+					%h4 Ocean Suite
+					%p Asiatische Gelassenheit<br>1 bis 4 Personen, ohne Verpflegung
 					%a.btn.btn-details(href="#") Details
 					%a.btn.btn-booking(href="#") Buchen
 

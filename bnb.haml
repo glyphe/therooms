@@ -1,0 +1,55 @@
+<!-- @include header -->
+
+%main
+
+	%section.sec-title
+		<!-- @include _nav-sub-bnb -->
+		%h2
+			Wiens einziges
+			%span Bed & Breakfast
+			an der schönen Alten Donau
+
+		%img(src="<!-- @path bnb_slider_01.jpg -->")
+
+	%section.sec-select-rooms
+		%header
+			%h3 Vier einzigartige Zimmer
+			%p Individuell gestaltete Zimmer für Individualisten – welches Zimmer passt zu dir?
+
+		.wrapper
+			%div
+				%div
+					%a(href="<!-- @path room -->")
+						%img(src="<!-- @path room-inspiration-thumb -->")
+					%h4 №1 Inspiration
+					%p Raum für neue Eingebungen<br>1 bis 3 Personen, inkl. Frühstück
+					%a.btn.btn-details(href="<!-- @path room -->") Details
+					%a.btn.btn-booking(href="#") Buchen
+			%div
+				%div
+					%img(src="<!-- @path room-contemplation-thumb -->")
+					%h4 №2 Contemplation
+					%p Frisches Mittelmeerfliar<br>1 bis 2 Personen, inkl. Frühstück
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+			%div
+				%div
+					%img(src="<!-- @path room-imagination-thumb -->")
+					%h4 №3 Imagination
+					%p Leben wie in 1001 Nacht<br>1 bis 3 Personen, inkl. Frühstück
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+			%div
+				%div
+					%img(src="<!-- @path room-relaxation-thumb -->")
+					%h4 №4 Relaxation
+					%p Asiatische Gelassenheit<br>1 bis 3 Personen, inkl. Frühstück
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+
+	<!-- @include sec-reviews -->
+
+	%section.sec-location
+		%img(src="<!-- @path map-overview -->")
+
+<!-- @include footer -->

@@ -3,7 +3,7 @@
 @mixin font-finch
 	font-family: "Finch-Bold"
 	font-weight: normal
-	line-height: 1
+	line-height: 0.95
 
 @mixin font-skolar
 	font-family: "skolar", serif
@@ -27,6 +27,11 @@ p
 	font-style: italic
 	max-width: 900px
 	margin: 0 auto 2em
+	line-height: 1.4
+
+	@include respond-to(handhelds)
+		font-size: 1.1em
+		line-height: 1.3
 
 
 @mixin text-over-image
@@ -54,10 +59,9 @@ h2 span
 
 h2 span, h3  // Titel Zimmer/Apartments & Sektionen
 	@include font-finch
-	font-size: 3em
+	font-size: 2.75em
 	text-transform: uppercase
 	font-style: normal
-	line-height: 0.9
 
 h3
 	text-align: center
@@ -90,12 +94,38 @@ cite
 // ######################
 
 
+// Generelle Typo-Settings für Sections
+section
+	header
+		text-align: center
+		font-size: 1.3em
+		color: $brand-color-2
+		text-shadow: 0px 1px 10px rgba(255,255,255,0.5)
+
+		h3, p
+			margin: 0
+
+		h3
+			letter-spacing: 1px
+			@include respond-to(handhelds)
+				font-size: 2.5em
+
+		p
+			font-style: italic
+			line-height: 1.2
+			@include respond-to(handhelds)
+				font-size: 0.9em
+
+
 // Willkommenstext Homepage
 .sec-welcome .content
 	h2
 		@extend h3
 		@include text-over-image
-		font-size: 3.5em
+		font-size: 3.7em
+
+		@include respond-to(handhelds)
+			font-size: 2.8em
 
 	> p
 		@include intro-text
@@ -103,6 +133,36 @@ cite
 		text-align: center
 		margin-bottom: .5em
 
+
+// Section Info – Beschreibung und Features
+.sec-info
+
+	.intro
+		@include intro-text
+
+
+// Zimmer/Apartment wählen auf Übersichtsseite
+.sec-select-rooms
+
+
+
+// ########################
+// ###### COMPONENTS ######
+// ########################
+
+
+// Box für Zimmer oder Apartmentauswahl
+.box-room
+	h4
+		@include font-finch
+		font-style: inherit
+		font-size: 2.5em
+		margin: 0
+		text-transform: uppercase
+
+	p
+		margin: 0.2em 0 0.7em
+		line-height: 1.3
 
 
 // ###################

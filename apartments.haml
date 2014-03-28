@@ -1,0 +1,55 @@
+<!-- @include header -->
+
+%main
+
+	%section.sec-title
+		<!-- @include _nav-sub-apartments -->
+		%h2
+			Einzigartige
+			%span Apartments
+			im Herzen von Wien
+
+		%img(src="<!-- @path apartments_slider_01.jpg -->")
+
+	%section.sec-select-rooms
+		%header
+			%h3 Unsere Apartments
+			%p Wiens Ferienapartments für Individualisten – welcher ist dein Stil?
+
+		.wrapper
+			%div
+				%div
+					%a(href="<!-- @path apartment-fantastic -->")
+						%img(src="<!-- @path apartment-fantastic-thumb -->")
+					%h4 Fantastic Suite
+					%p Leben wie in 1001 Nacht<br>1 bis 4 Personen, ohne Verpflegung
+					%a.btn.btn-details(href="<!-- @path apartment-fantastic -->") Details
+					%a.btn.btn-booking(href="#") Buchen
+			%div
+				%div
+					%img(src="<!-- @path apartment-extreme-wow-thumb -->")
+					%h4 Extreme Wow Suite
+					%p Raum für neue Eingebungen<br>1 bis 3 Personen, ohne Verpflegung
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+			%div
+				%div
+					%img(src="<!-- @path apartment-marvelous-thumb -->")
+					%h4 Marvelous Suite
+					%p Frisches Mittelmeerfliar<br>1 bis 4 Personen, ohne Verpflegung
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+			%div
+				%div
+					%img(src="<!-- @path apartment-ocean-thumb -->")
+					%h4 Ocean Suite
+					%p Asiatische Gelassenheit<br>1 bis 4 Personen, ohne Verpflegung
+					%a.btn.btn-details(href="#") Details
+					%a.btn.btn-booking(href="#") Buchen
+
+	<!-- @include sec-reviews -->
+
+	%section.sec-location
+		%img(src="<!-- @path map-overview -->")
+
+<!-- @include footer -->

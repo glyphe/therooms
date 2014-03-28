@@ -1,0 +1,422 @@
+// ######################
+// ###### SECTIONS ######
+// ######################
+
+
+section
+	margin: 6em 0 2em
+	@include respond-to(handhelds)
+		margin: 3em 0 1em
+
+	header
+		margin: 1em 0 .5em
+		padding: 7em $outer-padding 5em
+		@include respond-to(handhelds)
+			padding-top: 1.5em
+			padding-bottom: 1em
+
+
+// Startseite Begrüßung
+.sec-welcome
+	position: relative
+	margin-top: -2em
+	padding: 2em 0
+	overflow: hidden
+
+	.content
+		@extend %center
+		padding: 0 $outer-padding
+
+		@include respond-to(handhelds)
+			padding: 0 1em
+
+		@include respond-to(medium-screens)
+			max-width: $wrapper-max-width
+			position: relative
+
+		position: relative
+		z-index: 100
+		text-align: center
+
+	.bg-img
+		position: absolute
+		top: 0px
+		right: 0px
+		bottom: 0px
+		left: 0px
+		z-index: 1
+		background: url(home-bg.jpg)
+		background-size: cover
+		background-position: center
+		-webkit-filter: blur(5px) saturate(0.4) hue-rotate(340deg)
+
+	.wrapper
+		> div > div
+			@extend .box-room
+
+		.btn-booking
+			background-color: $brand-color-2
+
+		@include respond-to(medium-screens)
+			@include grid(1em)
+
+			> div
+				@include col-1-2
+
+			div:first-child > div
+				margin-left: auto
+				margin-right: 0
+
+			div:last-child > div
+				margin-left: 0
+				margin-right: auto 
+	
+
+// Location: Lageplan
+.sec-location
+	img
+		width: 100%
+		max-width: 1000px
+		display: block
+		@extend %center
+
+
+// Titelbereich Zimmer/Apartments mit Slider 
+.sec-title
+	margin: 0
+
+	@include respond-to(medium-screens)
+		position: relative
+
+	img
+		width: 100%
+		// max-width: $wrapper-max-width
+
+		@include respond-to(medium-screens)
+			display: block
+			margin: 0 auto
+
+	h2
+		@include after-nav-main	// Hintergrundmuster unter Hauptnavi
+		color: $brand-color-2
+		margin: 0
+		padding: 1.5em 0
+
+		@include respond-to(handhelds)
+			font-size: 1.3em
+		
+		@include respond-to(wide-screens)
+			color: inherit
+			width: 350px
+			height: 350px
+			border-radius: 50%
+			background: none
+			background-color: $background-color-sec-title-bubble
+			display: flex
+			flex-direction: column
+			justify-content: center
+			position: absolute
+			left: 50%
+			top: 50%
+			margin-left: -175px
+			margin-top: -175px
+			padding: 2em
+			
+
+
+// Section Info – Beschreibung und Features
+.sec-info
+	margin-top: 0
+
+	// Bezieht sich auf das Floorplan-Bild
+	img
+		display: block
+		width: 100%
+		max-width: 800px
+		margin: 0 auto 2em
+
+	// Auflistung der Zimmerfeatures
+	.features
+		h4
+			color: $text-color
+			font-style: normal
+			text-transform: uppercase
+			letter-spacing: 1px
+			display: inline-block
+			border-bottom: 2px solid $text-color
+			margin: 1em 0 0.75em
+			margin-bottom: -0.2em
+
+		@include respond-to(medium-screens)
+			@include grid(0.8em)
+
+			> div
+				@include col-1-3
+
+
+// Eindrücke
+.sec-impressions
+	margin-top: 0
+
+	// Ergänzungstext zu den Bildern
+	.info-text
+		background-color: rgba(desaturate($brand-color-complement, 20%), 0.7)
+		position: relative
+		display: flex
+		display: -webkit-flex
+
+		> div
+			@include font-finch
+			font-size: 2.2em
+			color: $white
+			margin: auto
+			padding: 0.5em
+			@include respond-to(handhelds)
+				font-size: 2em
+
+		@include respond-to(medium-screens)	// stellt Hohe der Box wie Breite ein
+			&:before
+				content: ""
+				display: block
+				padding-top: 100%
+
+
+	.wrapper
+		@include grid(0.8em)
+
+		img
+			width: 100%
+
+		@include respond-to(handhelds)
+			> div
+				@include col-1-1
+
+		@include respond-to(medium-screens)
+			> div
+				@include col-1-2
+
+		@include respond-to(wide-screens)
+			> div
+				@include col-1-3
+
+
+
+// Preise & Buchen
+.sec-booking
+
+	h4
+		@extend h3
+		text-align: left
+		font-size: 2.5em
+		margin: 0 0 0.2em
+
+	table h4
+		margin-bottom: -0.2em
+
+	.wrapper
+		@include respond-to(wide-screens)
+			@include grid (1.5em)
+
+		> div
+			margin-bottom: 2em
+			@include respond-to(wide-screens)
+				@include col-1-2
+
+	table, form
+		width: 100%
+		margin: 0 auto
+		max-width: 600px
+		border: 2px solid $light-grey
+
+	table
+		@include respond-to(handhelds)
+			font-size: .7em
+
+	tr
+		background-color: $white-semi-transparent
+		border-bottom: 1px solid $light-grey
+
+		&:nth-child(even)
+			background-color: $white-transparent
+
+	th, td
+		padding: 1em
+		text-align: right
+
+	i
+		// für Icons in der Titelzeile	
+		color: $brand-color-2
+
+	td
+		vertical-align: top
+		text-align: right
+
+	th
+		font-weight: normal
+		font-style: italic
+		vertical-align: bottom
+
+		&:first-child
+			text-align: left
+
+		span
+			@include respond-to(medium-screens)
+				text-transform: uppercase
+				letter-spacing: 2px
+				display: block
+				font-style: normal
+
+	form
+		background-color: $white-semi-transparent
+		padding: 1em
+
+	@include respond-to(medium-screens)
+		.formgroup
+			margin-bottom: 1em
+
+			> div
+				display: inline-block
+				margin-right: 0.5em
+
+	label
+		display: block
+		color: $dark-grey
+
+	input[type="date"], select
+		width: 100%
+		max-width: 9em
+		margin-bottom: 0.5em
+
+
+// Frühstück
+.sec-breakfast
+	header
+		background: url(breakfast-bg.jpg)
+		background-size: cover
+		background-position: center
+
+	main
+		.wrapper
+			@include respond-to(medium-screens)
+				@include grid (2em)
+
+				> div
+					@include col-1-2
+
+
+// Umfeld
+.sec-umfeld
+	header
+		background: url(umfeld-bg.jpg)
+		background-size: cover
+		background-position: center
+
+	main
+		.wrapper
+			@include respond-to(medium-screens)
+				@include grid(0 1.5em)
+
+				> div
+					@include col-1-3
+
+
+// Reviews und Quote
+.sec-reviews
+	background: url(reviews-bg.jpg)
+	background-size: cover
+	padding: 6em 0 5em
+	@include respond-to(handhelds)
+		padding-top: 2em
+		padding-bottom: 2em
+
+	figure
+		text-align: center
+
+	blockquote, cite
+		@include text-over-image
+
+	blockquote
+		max-width: 800px
+		margin: 0 auto
+		@include respond-to(handhelds)
+			font-size: 2em
+
+	cite
+		display: block
+		margin: 1em 0
+
+
+// Weitere Zimmer
+.sec-other-rooms
+	margin-bottom: 0
+	padding: 1em 0 2em
+	background: url(textured_paper) #ccc
+	border-top: 1px solid $light-grey
+
+	.wrapper
+		> div > div
+			@extend .box-room
+
+		@include respond-to(medium-screens)
+			@include grid(0 1em)
+
+			> div
+				@include col-1-2
+				@include respond-to(wide-screens)
+					@include col-1-3
+
+
+// Zimmer/Apartment wählen auf Übersichtsseite
+.sec-select-rooms
+	margin-top: 0
+
+	header
+		padding-top: 2em
+		padding-bottom: 0
+
+	.wrapper
+		> div > div
+			@extend .box-room
+
+		@include respond-to(medium-screens)
+			@include grid(0 1em)
+
+			> div
+				@include col-1-2
+
+			> div:nth-child(odd) > div
+				margin-left: auto
+				margin-right: 0
+
+			> div:nth-child(even) > div
+				margin-left: 0
+				margin-right: auto
+
+
+// Footer
+footer
+	margin-top: -7px
+	padding: 2em 0
+	color: $white
+	background: url(footer-bg.png) repeat-x transparent
+	background-position: left top
+
+	i
+		margin: 0 0.2em 0
+
+	.wrapper
+		padding: 0 2.5em
+
+		@include respond-to(medium-screens)
+			display: flex
+			display: -webkit-flex
+
+			> div
+				display: inline-block
+
+			div:nth-last-child(2)
+				margin-left: auto
+				margin-right: 1em
+
+
+
