@@ -38,17 +38,17 @@ section
 		z-index: 100
 		text-align: center
 
-	.bg-img
+	.bg-img // Effekte für Hintergrundbild
 		position: absolute
-		top: 0px
-		right: 0px
-		bottom: 0px
-		left: 0px
+		top: 0
+		right: -40px
+		bottom: -40px
+		left: -40px
 		z-index: 1
 		background: url(home-bg.jpg)
 		background-size: cover
 		background-position: center
-		-webkit-filter: blur(5px) saturate(0.4) hue-rotate(340deg)
+		-webkit-filter: blur(6px) saturate(0.8) 
 
 	.wrapper
 		> div > div
@@ -74,6 +74,9 @@ section
 
 // Location: Lageplan
 .sec-location
+	@include respond-to(medium-screens)
+		margin: 3em 0 -3em
+	
 	img
 		width: 100%
 		max-width: 1000px
@@ -90,7 +93,6 @@ section
 
 	img
 		width: 100%
-		// max-width: $wrapper-max-width
 
 		@include respond-to(medium-screens)
 			display: block
@@ -393,8 +395,50 @@ section
 				margin-right: auto
 
 
+// Teaser About Us
+.sec-about-us
+	margin-top: -2em
+	margin-bottom: 2em
+
+	@include respond-to (medium-screens)
+		margin-bottom: 0
+		position: relative
+		z-index: 0 // damit es unterhalb des Footers ist
+
+	img
+		position: relative
+		width: 100%
+		z-index: 10
+
+	.wrapper
+		@include respond-to(medium-screens)
+			width: 100%
+			max-width: 100% // Damit Text und Foto nicht kollidieren
+			position: absolute
+			top: 8% // Abstand von obererm Bildrand
+			z-index: 100
+
+			h3, p
+				max-width: 380px // Damit bei sehr breiten Bildschirmen der Text nicht zu schmal wird
+
+			@include grid(0 1em)
+
+			> div
+				@include col-1-2
+
+		@include respond-to(wide-screens)
+			top: 20% // Bei kleinen Größen weniger Abstand von Bildrand oben
+
+
+// Redirect zu anderem Seitenbereich
+.sec-redirect
+	text-align: center
+	margin: 5em 0
+
 // Footer
 footer
+	position: relative
+	z-index: 100
 	margin-top: -7px
 	padding: 2em 0
 	color: $white

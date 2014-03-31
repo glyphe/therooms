@@ -22,8 +22,23 @@ nav a:link.current, nav a:visited.current
 	margin: 0 0.4em 0 0
 
 
-// Reviews
+// Redirect zu anderem Seitenbereich
+.sec-redirect
 
+	a:link, a:visited
+		@extend .btn, .btn-booking
+		display: inline-block
+		padding: 1em 1em 0.7em
+
+		span
+			@include font-finch
+			text-transform: uppercase
+			letter-spacing: 1px
+			font-size: 2em
+			display: block
+
+
+// Reviews
 .sec-reviews
 	cite
 

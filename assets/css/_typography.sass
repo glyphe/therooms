@@ -145,6 +145,27 @@ section
 .sec-select-rooms
 
 
+// Teaser About Us
+.sec-about-us
+	@include respond-to(handhelds)
+		text-align: center
+
+	h3
+		@include respond-to(medium-screens)
+			@include text-over-image
+			text-align: left
+		@include respond-to(handhelds)
+			margin-top: 0.5em
+
+	p
+		@include respond-to(medium-screens)
+			@include text-over-image
+
+	a.btn
+		@include respond-to(medium-screens)
+			background-color: $white
+			color: $brand-color-1
+
 
 // ########################
 // ###### COMPONENTS ######

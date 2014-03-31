@@ -3,7 +3,8 @@
 %main
 
 	%section.sec-welcome
-		.bg-img / Extra Container für BG-Bild und Content, damit CSS-Effekte funktionieren
+		.bg-img
+		/ Extra Container für BG-Bild und Content, damit CSS-Effekte funktionieren
 
 		.content
 			%h2 Alles, nur nicht gewöhnlich
@@ -30,5 +31,14 @@
 		%img(src="<!-- @path map-overview -->")
 
 	<!-- @include sec-reviews -->
+
+	%section.sec-about-us
+		%img(src="<!-- @path portrait-2 -->")
+		.wrapper
+			%div &nbsp;
+			%div
+				%h3 Wir freuen uns auf Dich!
+				%p Seit über acht Jahren führe ich unser außergewönliches Bed & Breakfast und vermietet Ferienwohnungen. Ich liebe es mich um meine Gäste zu kümmern und ihnen den Aufenthalt in Wien ganz besonders zu gestalten.
+				%a.btn(href="#") Mehr über uns
 
 <!-- @include footer -->
