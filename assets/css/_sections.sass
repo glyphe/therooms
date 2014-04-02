@@ -134,8 +134,23 @@ section
 	img
 		display: block
 		width: 100%
-		max-width: 800px
+
+	img.apartment
 		margin: 0 auto 2em
+		max-width: 940px
+
+	img.room
+		@include respond-to(wide-screens)
+			margin-top: -2em
+
+	// Info-Bereich bei Zimmern, damit Bild neben Intro steht
+	.info
+		@include respond-to(medium-screens)
+			@include grid(0.8em)
+
+		> div
+			@include respond-to(medium-screens)
+				@include col-1-2
 
 	// Auflistung der Zimmerfeatures
 	.features
