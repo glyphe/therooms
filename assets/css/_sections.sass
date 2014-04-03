@@ -23,7 +23,7 @@ section
 	padding: 2em 0
 	overflow: hidden
 
-	.content
+	.content // Begrüßungstext
 		@extend %center
 		padding: 0 $outer-padding
 
@@ -52,24 +52,30 @@ section
 		-webkit-filter: blur(6px) saturate(0.8) 
 
 	.wrapper
-		> div > div
-			@extend .box-room
+		img
+			width: 100%
+			border-radius: 50%
+			border: 10px solid $white-transparent
+			background-color: $white-transparent
 
-		.btn-booking
-			background-color: $brand-color-2
+		> div 
+			margin-top: 2em
 
 		@include respond-to(medium-screens)
-			@include grid(1em)
+			@include grid(1.5em)
 
 			> div
 				@include col-1-2
+
+				> div
+					max-width: 310px
 
 			div:first-child > div
 				margin-left: auto
 				margin-right: 0
 
 			div:last-child > div
-				margin-left: 0
+				margin-left: o
 				margin-right: auto 
 	
 
@@ -321,6 +327,32 @@ section
 				> div
 					@include col-1-2
 
+
+// Features des B&B auf der Übersichtsseite
+.sec-bnb-features
+	margin-top: 3em
+
+	main
+		.wrapper
+			@include respond-to(medium-screens)
+				@include grid(0 1em)
+
+			> div
+				@include respond-to(medium-screens)
+					@include col-1-2
+
+				@include respond-to(wide-screens)
+					@include col-1-4
+
+	img // Macht einen runden Kries rum um die Icons
+		display: block
+		margin: 0 auto
+		// border-radius: 50%
+		// background-color: $brand-color-2
+		// border: 10px solid $brand-color-2
+		// width: 100px
+		@include respond-to(handhelds)
+			width: inherit
 
 // Umfeld
 .sec-umfeld

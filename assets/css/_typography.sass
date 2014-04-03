@@ -71,7 +71,7 @@ h3
 h4
 	color: $brand-color-2
 	font-style: italic
-	margin: 3em 0 0.5em
+	margin: 1.5em 0 0.5em
 
 
 // ####################
@@ -127,6 +127,11 @@ section
 		@include respond-to(handhelds)
 			font-size: 2.8em
 
+	h3
+		@include text-over-image
+		margin-top: 0.5em
+
+
 	> p
 		@include intro-text
 		@include text-over-image
@@ -165,6 +170,15 @@ section
 		@include respond-to(medium-screens)
 			background-color: $white
 			color: $brand-color-1
+
+// Features des B&B auf der Übersichtsseite
+.sec-bnb-features
+	text-align: center
+
+	h4
+		@extend h3
+		margin: 0.5em 0 0
+		font-size: 2.5em
 
 
 // ########################
