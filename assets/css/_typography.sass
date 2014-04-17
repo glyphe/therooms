@@ -157,19 +157,21 @@ section
 
 	h3
 		@include respond-to(medium-screens)
-			@include text-over-image
 			text-align: left
 		@include respond-to(handhelds)
 			margin-top: 0.5em
 
 	p
 		@include respond-to(medium-screens)
-			@include text-over-image
+			color: $brand-color-1
 
 	a.btn
 		@include respond-to(medium-screens)
-			background-color: $white
-			color: $brand-color-1
+			background-color: $brand-color-1
+			color: $white
+
+		&:hover
+			background-color: $brand-color-2
 
 // Features des B&B auf der Übersichtsseite
 .sec-bnb-features

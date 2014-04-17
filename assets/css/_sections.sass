@@ -20,7 +20,7 @@ section
 .sec-welcome
 	position: relative
 	margin-top: -2em
-	padding: 2em 0
+	padding: 8em 0 2em
 	overflow: hidden
 
 	.content // Begrüßungstext
@@ -49,7 +49,7 @@ section
 		background-color: #000
 		background-size: cover
 		background-position: center
-		-webkit-filter: blur(6px) saturate(0.8) 
+		-webkit-filter: blur(8px) saturate(0.8) 
 
 	.wrapper
 		img
@@ -57,6 +57,10 @@ section
 			border-radius: 50%
 			border: 10px solid $white-transparent
 			background-color: $white-transparent
+			transition: border 0.5s ease
+
+			&:hover
+				border-width: 6px
 
 		> div 
 			margin-top: 2em
@@ -68,7 +72,7 @@ section
 				@include col-1-2
 
 				> div
-					max-width: 310px
+					max-width: 310px // damit die Bilder gei wide-screens nicht riesig werden
 
 			div:first-child > div
 				margin-left: auto
