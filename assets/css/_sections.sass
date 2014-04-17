@@ -16,11 +16,39 @@ section
 			padding-bottom: 1em
 
 
-// Startseite Begrüßung
-.sec-welcome
+// Startseite Slideshow
+.sec-welcome-slider
+	margin: 0
 	position: relative
-	margin-top: -2em
-	padding: 8em 0 2em
+
+	img 
+		width: 100%
+
+	h2
+		position: absolute
+		width: 100%
+		bottom: 5%
+		left: 0
+
+// Startseite Buchung
+.sec-welcome-booking
+	margin: 0
+	padding: 0.75em 0
+	background-color: rgba(255,255,255,.99)
+
+	.wrapper
+		text-align: center
+
+		> div
+			display: inline-block
+			margin: 0.5em 1em
+
+
+// Startseite Begrüßung
+.sec-welcome-text
+	position: relative
+	margin: 0 0 -2em
+	padding: 4em 0 0
 	overflow: hidden
 
 	.content // Begrüßungstext
@@ -36,20 +64,7 @@ section
 
 		position: relative
 		z-index: 100
-		text-align: center
-
-	.bg-img // Effekte für Hintergrundbild
-		position: absolute
-		top: 0
-		right: -40px
-		bottom: -40px
-		left: -40px
-		z-index: 1
-		background: url(home-bg)
-		background-color: #000
-		background-size: cover
-		background-position: center
-		-webkit-filter: blur(8px) saturate(0.8) 
+		text-align: center 
 
 	.wrapper
 		img
@@ -63,7 +78,7 @@ section
 				border-width: 6px
 
 		> div 
-			margin-top: 2em
+			margin-bottom: 2em
 
 		@include respond-to(medium-screens)
 			@include grid(1.5em)
@@ -79,7 +94,7 @@ section
 				margin-right: 0
 
 			div:last-child > div
-				margin-left: o
+				margin-left: 0
 				margin-right: auto 
 	
 

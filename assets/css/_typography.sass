@@ -117,24 +117,37 @@ section
 				font-size: 0.9em
 
 
+// Startseite Slideshow
+.sec-welcome-slider
+	h2 span
+		@include text-over-image
+		text-transform: inherit
+
+		@include respond-to(handhelds)
+			font-size: 1.5em
+
+// Formular auf Startseite
+.sec-welcome-booking
+	h3
+		margin: 0
+		font-size: 3.2em
+
+
 // Willkommenstext Homepage
-.sec-welcome .content
+.sec-welcome-text .content
 	h2
 		@extend h3
-		@include text-over-image
 		font-size: 3.7em
 
 		@include respond-to(handhelds)
 			font-size: 2.8em
 
 	h3
-		@include text-over-image
 		margin-top: 0.5em
 
 
 	> p
 		@include intro-text
-		@include text-over-image
 		text-align: center
 		margin-bottom: .5em
 

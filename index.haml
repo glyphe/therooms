@@ -2,14 +2,30 @@
 
 %main
 
-	%section.sec-welcome
-		.bg-img
-		/ Extra Container für BG-Bild und Content, damit CSS-Effekte funktionieren
+	%section.sec-welcome-slider
+		%h2
+			%span Außergewöhnliche Apartments
+		%img(src="<!-- @path apartments_slider_01.jpg -->")
 
+	%section.sec-welcome-booking
+		%form
+			.wrapper
+				%div
+
+					%h3 Buchen
+				%div
+					%label(for="check-in") Ankunft
+					%input(type="date" name="check-in")
+				%div
+					%label(for="check-out") Abreise
+					%input(type="date" name="check-out")
+				%div
+					%input(type="submit" value="Verfügbarkeit prüfen")
+
+
+	%section.sec-welcome-text
 		.content
-			%h2 Alles, nur nicht gewöhnlich
-			%p Jedes Zimmer und Apartment von the rooms ist mit viel Charme und Liebe zum Detail in einem individuellen Stil eingerichtet. Finde deinen passenden Raum für eine ganz besondere Zeit in Wien!
-			%a.btn(href="#") Jetzt buchen
+			/ %p Jedes Zimmer und Apartment von the rooms ist mit viel Charme und Liebe zum Detail in einem individuellen Stil eingerichtet. Finde deinen passenden Raum für eine ganz besondere Zeit in Wien!
 
 			.wrapper
 				%div	
