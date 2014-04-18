@@ -347,6 +347,26 @@ section
 					@include col-1-2
 
 
+// Anreise
+.sec-anreise
+	header
+		background: url(breakfast-bg.jpg)
+		background-size: cover
+		background-position: center
+
+	img
+		display: block
+		margin: 0 auto
+
+	main
+		.wrapper
+			@include respond-to(medium-screens)
+				@include grid (2em)
+
+				> div
+					@include col-1-2
+
+
 // Features des B&B auf der Übersichtsseite
 .sec-bnb-features
 	margin-top: 3em
